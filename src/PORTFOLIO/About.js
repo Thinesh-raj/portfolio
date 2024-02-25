@@ -8,13 +8,14 @@ function About() {
         <div className="aboutPart2">
             <h1>About me</h1>
             <p>I am Thineshraj, a passionate Full Stack Developer with a excellent Front-end knowledge and good with Back-end Technologies.
-                My motive is to gain all the essential knowledgeto become a full-fledged Full Stack Developer.
+                My motive is to gain all the essential knowledge to become a full-fledged Full Stack Developer.
             </p>
             <h1>Objective</h1>
             <p>To enhance my professional skills, capabilities and knowledge in an organization which recognizes the value of
                 hard work and trusts me with responsibilities and challenges.
             </p>
             <Link to="/resume">Resume<FaFolderOpen/></Link>
+            <small>(click to view resume)</small>
         </div>
     </div>
 }

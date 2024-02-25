@@ -15,8 +15,11 @@
 }
 .head a{
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: #66A5AD;
     color: #fff;
     padding: .5% 2%;
     border-radius: 20px;
+}
+.resume img{
+    width: 55%;
 }

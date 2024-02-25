@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import bg1 from "./Images/resume1.jpg";
-import bg2 from "./Images/resume2.jpg";
+import bg1 from "./Images/Resume-1.jpg";
+import bg2 from "./Images/Resume-2.jpg";
 import "./resume.css";
 function Resume() {
     return <div className="resume">
