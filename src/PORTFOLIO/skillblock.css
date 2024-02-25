@@ -1,0 +1,108 @@
+.skillblock{
+    width: 28%;
+    box-shadow: 0 0 20px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    cursor: pointer;
+    transition: .5s all;
+    border: 5px solid #fff;
+}
+.skillblock:hover{
+    box-shadow: 0 0 20px rgb(72, 71, 71);
+    border: 5px solid #4a939d;
+}
+.hide{
+    padding: 15%;
+}
+.skillblock:hover .hide{
+    transform: translateX(-17%);
+    transition: .5s linear;
+    width: 1%;
+}
+
+.show {
+    display: none;
+    text-align: left;
+    padding: 1% 3% 0 1%;
+    width: 50%;
+    transition: .5s ease;
+}
+
+.skillblock:hover .show {
+    display: block;
+    margin-left: 2%;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes big {
+    0%{
+        transform:scale(.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+.show h2{
+    margin: 1% 0;
+    color: #66A5AD;
+}
+.star{
+    position: relative;
+    z-index: 9;
+    color: #FBA834;
+    font-size: 1.2rem;
+}
+.overstar{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    color: rgb(132, 136, 136);
+}
+
+@media only screen and (min-width:150px) and (max-width:480px){
+    .skillblock{
+        width: 80%;
+        margin-top: 4%;
+    }
+    .skillblock p{
+        display: none;
+    }
+    .skillblock:hover .hide{
+        transform: translateX(-35%);
+    }
+    .skillblock:hover .show {
+        margin-left: 4%;
+    }
+}
+@media only screen and (min-width:481px)and (max-width:720px){
+    .skillblock{
+        width: 43%;
+        margin: 4% 2%;
+    }
+    .skillblock p{
+        display: none;
+    }
+    .skillblock:hover .hide{
+        transform: translateX(-42%);
+    }
+    .skillblock:hover .show {
+        margin-left: 4%;
+    }
+}
+@media only screen and (min-width:721px)and (max-width:1200px){
+    .skillblock{
+        width: 43%;
+        margin: 4% 2%;
+    }
+    .skillblock:hover .hide{
+        transform: translateX(-25%);
+    }
+    .skillblock:hover .show {
+        margin-left: 4%;
+    }
+}

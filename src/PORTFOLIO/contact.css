@@ -1,0 +1,28 @@
+.contact{
+    background-color: #66A5AD;
+    padding: 3% 0 ;
+    text-align: center;
+    color: aliceblue;
+}
+.contact h1{
+    text-decoration: underline;
+}
+.contact .linkin{
+    font-size: 2rem;
+    color: #fff;
+    transition: .7s ease;
+    margin: 0 1%;
+}
+.contact .linkin:hover{
+  color: #1B3C73;
+}
+.contact p{
+    margin: 0;
+}
+.contact h2{
+    margin: 0 0 2% 0;
+}
+.mail{
+    text-decoration: none;
+    color: #fff;
+}

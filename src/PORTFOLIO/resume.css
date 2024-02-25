@@ -1,0 +1,22 @@
+.resume{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 2% 10% 0 46%;
+}
+.head h1{
+    color: #66A5AD;
+}
+.head a{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: #fff;
+    padding: .5% 2%;
+    border-radius: 20px;
+}
