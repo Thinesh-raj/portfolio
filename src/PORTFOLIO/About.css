@@ -114,6 +114,9 @@
     .aboutPart2 a{
          margin-left: 37%;
     }
+    .aboutPart2 small{
+        margin-left: 30%;
+    }
     .education .time {
         display: none;
     }
