@@ -1,19 +1,20 @@
 
 import { Route, Routes } from 'react-router';
 import './App.css';
-import Cover from './PORTFOLIO/cover';
 import { BrowserRouter } from 'react-router-dom';
-import Resume from './PORTFOLIO/resume';
+import Mainpage from './portfolio2/Mainpage';
+import Page from './portfolio2/Page';
+
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Cover/>} />
-        <Route path="/resume" element={<Resume/>} />
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Mainpage />} />
+          <Route path="/page/:page" element={<Page/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
